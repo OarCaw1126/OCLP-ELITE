@@ -1,5 +1,14 @@
 # OpenCore Legacy Patcher changelog
 
+## 3.2.1
+
+-Were testting Graphics Acceleration On macOS
+-PatcherSupportPkg 2.0.0 By YBronst
+-Fix Missing Patches
+-Update Kexts To Sttable Version
+-It Works On macs from 2012-2017
+ -OpenCorePkg 1.0.7
+ 
 ## 3.0.0
 - Restore support for FileVault 2 on macOS 26
 - Add USB mappings for macOS 26
