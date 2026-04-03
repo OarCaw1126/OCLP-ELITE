@@ -5,6 +5,8 @@
 
 OCLP ELITE Is An Opencore Based On Oclp Mod And Oclp Plus
 
+It handles Tahoe Patches like Wi-Fi, audio, and camera issues (and I suppose the graphics acceleration isn't available right now; I'll test the graphics for Tahoe later).
+
 Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
 
 1: Intel Ivy Bridge or higher
@@ -17,38 +19,24 @@ Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
 
 5: Run the official version of Tahoe. If you have Beta 1-Beta 9, especially OMC if you're testing Tahoe on your Mac but running Beta 1, you need to run version 26.4 for it to work.
 
-Well, as I was saying, I'm testing graphics for Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4-25E246), to see if it works or not.
+Why You Update To Beta 1-Beta-9 To 26.4 Stable? 
 
-A Python-based project revolving around [Acidanthera's OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu) for both running and unlocking features in macOS on supported and unsupported Macs.
+Well Because if you don't do this, the Wi-Fi won't work. And keep in mind that if you're on Beta 1 to Beta 9, if you activate Wi-Fi, it will deactivate in 0.5 seconds. So Update It To 26.4 for Wi-Fi to work
 
-Our project's main goal is to breathe new life into Macs no longer supported by Apple, allowing for the installation and usage of macOS Big Sur and newer on machines as old as 2007.
+Well, as I was saying, I'm testing graphics Acceletration for Old Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4-25E246), to see if it works or not.
 
-----------
+Features And Tutorials.
 
-![GitHub all releases](https://img.shields.io/github/downloads/dortania/OpenCore-Legacy-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/dortania/OpenCore-Legacy-Patcher?color=4B8BBE&style=plastic) ![Discord](https://img.shields.io/discord/417165963327176704?color=7289da&label=discord&style=plastic)
+Tahoe Patchset Support 26.0-26.4 Like You Can Patch Wifi And Audio And Camera But Graphics Acceleration Is Fixing, for now
 
-----------
+Supports Only macOS Tahoe The Sequoia And Below go To The [Official Version Of OpenCore](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
-Noteworthy features of OpenCore Legacy Patcher:
+Otas Updates For macOS Tahoe
 
-* Support for macOS Big Sur, Monterey, Ventura, Sonoma and Sequoia
-* Native Over the Air (OTA) System Updates
-* Supports Penryn and newer Macs
-* Full support for WPA Wi-Fi and Personal Hotspot on BCM943224 and newer wireless chipsets
-* System Integrity Protection, FileVault 2, .im4m Secure Boot and Vaulting
-* Recovery OS, Safe Mode and Single-user Mode booting on non-native OSes
-* Unlocks features such as Sidecar and AirPlay to Mac even on native Macs
-* Enables enhanced SATA and NVMe power management on non-Apple storage devices
-* Zero firmware patching required (ie. APFS ROM patching)
-* Graphics acceleration for both Metal and non-Metal GPUs
+Note You Need A Usb Like Upgrade Or Clean Install You Can Do With [OCLP MOD](https://github.com/laobamac/OCLP-Mod)) Or [OCLP PLUS](https://github.com/YBronst/OCLP-Plus)
 
-----------
+You can, however, reinstall macOS with this patcher and retain your original data
 
-Note: Only clean-installs and upgrades are supported. macOS Big Sur installs already patched with other patchers, such as [Patched Sur](https://github.com/BenSova/Patched-Sur) or [bigmac](https://github.com/StarPlayrX/bigmac), cannot be used due to broken file integrity with APFS snapshots and SIP.
-
-* You can, however, reinstall macOS with this patcher and retain your original data
-
-Note 2: Currently, OpenCore Legacy Patcher officially supports patching to run macOS Big Sur through Sonoma installs. For older OSes, OpenCore may function; however, support is currently not provided from Dortania.
 
 * For macOS Mojave and Catalina support, we recommend the use of [dosdude1's patchers](http://dosdude1.com)
 
