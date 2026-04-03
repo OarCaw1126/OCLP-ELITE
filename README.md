@@ -1,7 +1,23 @@
 <div align="center">
              <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
-             <h1>OpenCore Legacy Patcher</h1>
+             <h1>OCLP ELITE Tahoe Patch</h1>
 </div>
+
+OCLP ELITE Is An Opencore Based On Oclp Mod And Oclp Plus
+
+Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
+
+1: Intel Ivy Bridge or higher
+
+2: Metal 2, Metal 3
+
+3: OCLP mod installed to run root patches
+
+4: Install patches for Wi-Fi
+
+5: Run the official version of Tahoe. If you have Beta 1-Beta 9, especially OMC if you're testing Tahoe on your Mac but running Beta 1, you need to run version 26.4 for it to work.
+
+Well, as I was saying, I'm testing graphics for Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4-25E246), to see if it works or not.
 
 A Python-based project revolving around [Acidanthera's OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu) for both running and unlocking features in macOS on supported and unsupported Macs.
 
