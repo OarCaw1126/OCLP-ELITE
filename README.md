@@ -19,7 +19,7 @@ Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
 
 5: Run the official version of Tahoe. If you have Beta 1-Beta 9, especially OMC if you're testing Tahoe on your Mac but running Beta 1, you need to run version 26.4 for it to work.
 
-Why You Update To Beta 1-Beta-9 To 26.4 Stable? 
+## Why You Update To Beta 1-Beta-9 To 26.4 Stable? 
 
 Well Because if you don't do this, the Wi-Fi won't work. And keep in mind that if you're on Beta 1 to Beta 9, if you activate Wi-Fi, it will deactivate in 0.5 seconds. So Update It To 26.4 for Wi-Fi to work
 
@@ -33,13 +33,71 @@ Supports Only macOS Tahoe The Sequoia And Below go To The [Official Version Of O
 
 Otas Updates For macOS Tahoe
 
-Note You Need A Usb Like Upgrade Or Clean Install You Can Do With [OCLP MOD](https://github.com/laobamac/OCLP-Mod)) Or [OCLP PLUS](https://github.com/YBronst/OCLP-Plus)
+Note You Need A Usb Like Upgrade Or Clean Install You Can Do With [OCLP MOD](https://github.com/laobamac/OCLP-Mod) Or [OCLP PLUS](https://github.com/YBronst/OCLP-Plus)
 
 You can, however, reinstall macOS with this patcher and retain your original data
 
 
-* For macOS Mojave and Catalina support, we recommend the use of [dosdude1's patchers](http://dosdude1.com)
+## 🛎️ Features
 
+* 1 Tahoe Supports From 2012-2017 macs and Hackintosh and imacs from 2012-2019
+
+* 2 I Guess You Can Run Graphics Acceleration Of macs from 2012-2015 Were Testing Later
+
+* 3 Wifi Audio Works AppleHDA kext works also
+
+* 4 based on ybronst's patchersupportpkg
+
+* 5 OCLP BASED ON OCLP PLUS AND MOD
+
+## Compatibility Of Models Of Macs
+
+## MacbooksPro
+
+* MacbookPro9,1 15 inch model MBP 2012
+* MacbookPro9,2 13 inch model MBP 2012
+* MacbookPro10,1 15 inch model MBP 2012-2013 
+* MacbookPro10,2 13 inch model MBP 2012-2013 
+* MacBookPro11,1 13 inch model MBP 2013-2014
+* MacBookPro11,2-MacBookPro11,3 15 inch model MBP 2014
+* MacBookPro11,4-MacbookPro11,5 15 inch model MBP 2015
+* MacBookPro12,1 13 inch model MBP 2015
+* MacbookPro13,1-MacBookPro13,2 13 inch model MBP 2016
+* MacBookPro13,3 15 inch model MBP 2016
+* MacBookPro14,1-MacBookPro14,2 13 inch model MBP 2017
+* MacBookPro14,3 15 inch model MBP 2017
+
+## Normal Macbooks
+
+* MacBook8,1 12 inch model MB 2015
+* Macbook9,1 12 inch model MB 2016
+* MacBook10,1 12 inch model MB 2017 (My mac with Tahoe)
+
+## Macbooks Air
+
+* MacBookAir5,1 11 inch model MBA 2012
+* MacBookAir5,2 13 inch model MBA 2012
+* MacBookAir6,1 11 inch model MBA 2013-2014
+* MacBookAir6,2 13 inch model MBA 2013-2014
+* MacbookAir7,1 11 inch model MBA 2015
+* MacbookAir7,2 13 inch model MBA 2015-2017
+
+## iMacs
+
+* iMac13,1 21,5 inch model iMac 2012
+* iMac13,2 27 inch model iMac 2012
+* iMac14,1 21,5 inch model iMac 2013
+* iMac14,2 27 inch model iMac 2013
+* iMac14,4 21,5 inch model iMac 2014
+* iMac15,1 27 inch model iMac 2014-2015
+* iMac16,1-iMac16,2 21,5 inch model iMac 2015
+* iMac17,1 27 inch model iMac 2015
+* iMac18,1-iMac18,2 21,5 inch model iMac 2017
+* iMac18,2 27 inch model iMac 2017
+* iMacPro1,1 27 inch model iMac 2017 (SMBIOS ADDED)
+* iMac19,2 21,5 inch model iMac 2019
+* iMac19,1 27 inch model iMac 2019
+Any Hackintosh Works
 ## Getting Started
 
 To start using the project, please see our in-depth guide:
