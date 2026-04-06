@@ -1,20 +1,73 @@
 # OpenCore Legacy Patcher changelog
 
-## 3.2.1
+## 3.2.0
 
--Were testting Graphics Acceleration On macOS
--PatcherSupportPkg 2.0.0 By YBronst
--Fix Missing Patches
--Update Kexts To Sttable Version
--It Works On macs from 2012-2017
- -OpenCorePkg 1.0.7
+- Were Testing Graphics Acceleration On macOS
+- OCLP By Me
+- PatcherSupportPkg 2.0.0 By YBronst
+- Fix Missing Patches
+- Update Kexts To Stable Version
+- It Works On macs from 2012-2019
+ - OpenCorePkg 1.0.7
+ - Added iMacPro1,1 SMBIOS
+
+## 3.1.9
+
+- Legacy patches (Intel/Nvidia/AMD) re-enabled for XNU < 25.
+- Strict filter for Tahoe (XNU 25+): Legacy patches excluded to prevent instability (AppleHDA/Wireless) and root patching failures.
+- ModernWireless/Audio remain enabled for all versions (including Tahoe).
+- Maintained original patch detection order.
+
+
+## 3.1.8
+
+   * **Move JavaScriptCore patch for pre-AVX Macs** to RestrictEvents
+   * **OpenCorePkg** 1.0.7 - release
+   * **Lilu** 1.7.2 - release
+   * **RestrictEvents** 1.1.7 - (rolling - b70aaa4)
+   * **PatcherSupportPkg** 2.0.0 - release
+
+## 3.1.7
+
+* 🚀 **Full Darwin 25 (macOS Tahoe) Support**: Comprehensive compatibility for the latest macOS builds.
+* 🔊 **Modern Audio Restoration**: Added a new **"Modern Audio"** toggle to restore `AppleHDA` functionality on legacy systems.
+* 🛠️ **macOS 26.4 Compatibility Fixes**:
+    * Resolved `hdiutil` mounting permission issues.
+    * Migrated all internal DMG resources to **APFS** for native environment support.
+* ℹ️ **Enhanced Help Menu**: Added direct **KDK (Kernel Debug Kit)** download support for easier driver linking.
+* 🧬 **Universal AmfiConfigurationDetection Rewrite**:
+    * **Bootloader Independence**: Removed hard dependencies on OpenCore, specific NVRAM variables, and static boot-args.
+    * **Live Kernel Detection**: Implemented real-time state detection via `sysctl vm.cs_library_validation`.
+    * **Live SIP Detection**: Integrated `csrutil status` for accurate System Integrity Protection checks.
+    * **Improved Logic**: Updated `check_config` and `HardwarePatchsetDetection` to utilize live system states, ensuring reliable performance across both modern (XNU 20+) and legacy macOS versions.
+    * **Extended Compatibility**: This allows the patcher to work seamlessly with alternative bootloaders like **Clover** or custom certificate injections.
+* 🛡️ **Stability**: General bug fixes and performance optimizations from previous releases.
+
+
+## 3.1.6
+Added a toggle to the 'Root Patches' sector to disable the 'Modern Audio' patch for AppleHDA restoration. This prevents unrecoverable kernel panics in macOS Tahoe without an installed KDK.
+
+## 3.1.5
+Backward compatibility with macOS Tahoe 26.0–26.3 has been preserved.
+HFS+ Removal: Apple deleted the HFS+ file system in macOS 26.4B1; this version is entirely replaced with APFS to be compatible with the new system.
+hdiutil Permissions: Apple has increased hdiutil permissions in macOS 26.4B1, disallowing mounting without root. This version has been fixed.
+AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instead, use amfi=0x80 boot argument
  
 ## 3.0.0
 - Restore support for FileVault 2 on macOS 26
 - Add USB mappings for macOS 26
 - Adopt Liquid Glass-conformant app icon
 - Increment Binaries:
-  - OpenCorePkg 1.0.5 - rolling (f03819e)
+  - OpenCorePkg 1.0.6 - relase
+
+## 2.5.0
+
+- Disable repatching a dirty root volume
+- Prevents issues if existing patches are partially overwritten
+- Thanks @crystall1nedev!
+- Add slimmed down patchset for Modern Wireless for macOS Sequoia
+- Increment binaries:
+  - PatcherSupportPkg 1.9.6 - release
 
 ## 2.4.1
 - Switch installer source to AppleDB
