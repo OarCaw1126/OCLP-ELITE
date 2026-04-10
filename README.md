@@ -1,6 +1,6 @@
 <div align="center">
              <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
-             <h1>OCLP ELITE Tahoe Patch</h1>
+             <h1>OCLP ELITE</h1>
 </div>
 
 OCLP ELITE Is An Opencore Based On Oclp Mod And Oclp Plus
