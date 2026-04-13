@@ -1,5 +1,12 @@
 # OpenCore Legacy Patcher changelog
 
+## 3.2.1
+
+- REDESIGN UPDATE!!!!
+- REDESIGNED ICONS ON INSTALLER
+- REDESIGNED ICONS ON THE MENU
+- AND MORE
+
 ## 3.2.0
 
 - Were Testing Graphics Acceleration On macOS
