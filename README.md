@@ -112,7 +112,23 @@ Minimun 4gb Of Ram To Run Tahoe
 
 macOS Catalina To Install It
 
-1. OCLP VIA MOD
+1. Go To Create macOS Installer and go to Download macOS Installer
+
+2. Install Tahoe 26.4.1 or newer dont install betas
+
+3. Now Go To Yes If Pop Ups Corrupted Is Not Corrupted Go To Create macOS Installer And Use Existing macOS
+
+4. Go Your Installer And Usb And Click yes
+
+5. next click yes or build and insttall opencore selectt your usb partition and resttart
+
+6. install tahoe on your laptop
+
+7. if root pattched you will hear an audio or else root patch
+
+8. Click Build And Install Opencore Install Opencore Click On YOur Disk Efi And Restart
+
+9. NOTE IF WIFI deactivate in 10 seconds and activate in 1 secon install ocat select your disk efi mount and open config.plist deactivate amfi on kextts now go to NVRAM 7C?????????? bootargs and put this text amfi=0x80 dart=0 and click save or press command s and restart and done
 
 ## Support
 
