@@ -13,6 +13,7 @@ SupportedSMBIOS = [
     "MacBook9,1",
     "MacBook10,1",
     # MacBook Air
+    "MacBookAir1,1",
     "MacBookAir2,1",
     "MacBookAir3,1",
     "MacBookAir3,2",
@@ -24,10 +25,12 @@ SupportedSMBIOS = [
     "MacBookAir6,2",
     "MacBookAir7,1",
     "MacBookAir7,2",
-    # "MacBookAir8,1",
-    # "MacBookAir8,2",
-    # "MacBookAir9,1",
+    "MacBookAir8,1",
+    "MacBookAir8,2",
+    "MacBookAir9,1",
+    "MacBookAir10,1",
     # MacBook Pro
+    "MacBookPro3,1",
     "MacBookPro4,1",
     "MacBookPro5,1",
     "MacBookPro5,2",
@@ -56,11 +59,19 @@ SupportedSMBIOS = [
     "MacBookPro14,1",
     "MacBookPro14,2",
     "MacBookPro14,3",
-    # "MacBookPro15,1",
-    # "MacBookPro15,2",
-    # "MacBookPro15,3",
-    # "MacBookPro15,4",
-    # "MacBookPro16,3",
+    "MacBookPro15,1",
+    "MacBookPro15,2",
+    "MacBookPro15,3",
+    "MacBookPro15,4",
+    "MacBookPro16,1",
+    "MacBookPro16,2",
+    "MacBookPro16,3",
+    "MacBookPro16,4",
+    "MacBookPro17,1",
+    "MacBookPro18,1",
+    "MacBookPro18,2",
+    "MacBookPro18,3",
+    "MacBookPro18,4",
     # Mac Mini
     "Macmini3,1",
     "Macmini4,1",
@@ -70,8 +81,10 @@ SupportedSMBIOS = [
     "Macmini6,1",
     "Macmini6,2",
     "Macmini7,1",
-    # "Macmini8,1",
+    "Macmini8,1",
+    "Macmini9,1",
     # iMac
+    "iMac6,1",
     "iMac7,1",
     "iMac8,1",
     "iMac9,1",
@@ -97,7 +110,10 @@ SupportedSMBIOS = [
     "iMac18,3",
     "iMac19,1",
     "iMac19,2",
-    "iMacPro1,1",
+    "iMac20,1",
+    "iMac20,2",
+    "iMac21,1",
+    "iMac21,2",
     # Mac Pro
     "MacPro3,1",
     "MacPro4,1",
@@ -108,7 +124,7 @@ SupportedSMBIOS = [
     "Xserve2,1",
     "Xserve3,1",
     # iMac Pro
-    # "iMacPro1,1",
+    "iMacPro1,1",
 ]
 
 # Audio
@@ -118,11 +134,13 @@ LegacyAudio = [
     "MacBook5,2",
     "MacBook6,1",
     "MacBook7,1",
+    "MacBookAir1,1",
     "MacBookAir2,1",
     "MacBookAir3,1",
     "MacBookAir3,2",
     "MacBookAir4,1",
     "MacBookAir4,2",
+    "MacBookPro3,1",
     "MacBookPro4,1",
     "MacBookPro5,1",
     "MacBookPro5,2",
@@ -202,11 +220,13 @@ LegacyGPU = [
     "MacBook5,2",  # Nvidia 9000
     "MacBook6,1",  # Nvidia 9000
     "MacBook7,1",  # Nvidia 300
+    "MacBookAir1,1",  # Intel GMA X3100
     "MacBookAir2,1",  # Nvidia 9000
     "MacBookAir3,1",  # Nvidia 300
     "MacBookAir3,2",  # Nvidia 300
     "MacBookAir4,1",  # Intel 3000
     "MacBookAir4,2",  # Intel 3000
+    "MacBookPro3,1",  # NVIDIA GeForce 8600M GT
     "MacBookPro4,1",  # Nvidia 8000
     "MacBookPro5,1",  # Nvidia 9000
     "MacBookPro5,2",  # Nvidia 9000
@@ -224,6 +244,7 @@ LegacyGPU = [
     "Macmini5,1",  # Intel 3000
     "Macmini5,2",  # AMD 6000
     "Macmini5,3",  # Intel 3000
+    "iMac6,1",  # NVIDIA GeForce 7300 GT
     "iMac7,1",  # AMD 2000
     "iMac8,1",  # Nvidia and AMD 2400
     "iMac9,1",  # Nvidia 9000
