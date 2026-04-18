@@ -23,11 +23,11 @@ Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
 
 Well Because if you don't do this, the Wi-Fi won't work. And keep in mind that if you're on Beta 1 to Beta 9, if you activate Wi-Fi, it will deactivate in 0.5 seconds. So Update It To 26.4 for Wi-Fi to work
 
-Well, as I was saying, I'm testing graphics Acceletration for Old Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4-25E246), to see if it works or not.
+Well, as I was saying, I'm testing graphics Acceletration for Old Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4.1-25E253), to see if it works or not.
 
 Features And Tutorials.
 
-Tahoe Patchset Support 26.0-26.4 Like You Can Patch Wifi And Audio And Camera But Graphics Acceleration Is Fixing, for now
+Tahoe Patchset Support 26.0-26.4.1 Like You Can Patch Wifi And Audio And Camera But Graphics Acceleration Is Fixing, for now
 
 Supports Only macOS Tahoe The Sequoia And Below go To The [Official Version Of OpenCore](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
@@ -97,12 +97,22 @@ You can, however, reinstall macOS with this patcher and retain your original dat
 * iMacPro1,1 27 inch model iMac 2017 (SMBIOS ADDED)
 * iMac19,2 21,5 inch model iMac 2019
 * iMac19,1 27 inch model iMac 2019
-Any Hackintosh Works
+
+## Hackintosh
+* Any Hackintosh Works
 ## Getting Started
 
-To start using the project, please see our in-depth guide:
+To Test Tahoe On Your Mac/Hackintosh You Need
 
-* [OpenCore Legacy Patcher Guide](https://dortania.github.io/OpenCore-Legacy-Patcher/)
+An Usb Minimun 32GB+
+
+OCLP MOD OR OCLP PLUS Installed My OCLP Is Not Ready For Patches For Usb For Integrate Patches Or Yes
+
+Minimun 4gb Of Ram To Run Tahoe
+
+macOS Catalina To Install It
+
+1. OCLP VIA MOD
 
 ## Support
 
