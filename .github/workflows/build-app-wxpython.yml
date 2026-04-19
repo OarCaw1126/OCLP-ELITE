@@ -91,14 +91,14 @@ jobs:
       - name: Upload Installation Package to Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OCLP-ELITE.pkg
-          path: ./dist/OCLP-ELITE.pkg
+          name: OpenCore-Patcher.pkg
+          path: ./dist/OpenCore-Patcher.pkg
 
       - name: Upload Uninstaller Package to Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OCLP-ELITE-Uninstaller.pkg
-          path: ./dist/OCLP-ELITE-Uninstaller.pkg
+          name: OpenCore-Patcher-Uninstaller.pkg
+          path: ./dist/OpenCore-Patcher-Uninstaller.pkg
 
       - name: Upload AutoPkg Package to Release
         if: github.event_name == 'release'
@@ -114,7 +114,7 @@ jobs:
         uses: svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./dist/OCLP-ELITE.pkg
+          file: ./dist/OpenCore-Patcher.pkg
           tag: ${{ github.ref }}
           file_glob: true
 
@@ -123,6 +123,6 @@ jobs:
         uses: svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./dist/OCLP-ELITE-Uninstaller.pkg
+          file: ./dist/OpenCore-Patcher-Uninstaller.pkg
           tag: ${{ github.ref }}
           file_glob: true
