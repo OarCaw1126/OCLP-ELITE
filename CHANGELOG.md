@@ -1,5 +1,10 @@
 # OpenCore Legacy Patcher changelog
 
+## 3.2.2
+
+- SMBIOS UPDATE!!!!
+- Added More Unsupported Macs Like macbookair8,2 or M Chip Mac
+
 ## 3.2.1
 
 - REDESIGN UPDATE!!!!
