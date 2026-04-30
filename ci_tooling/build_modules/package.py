@@ -58,7 +58,7 @@ class GeneratePackage:
         _welcome = ""
 
         _welcome += "# Application Uninstaller\n"
-        _welcome += "This package will uninstall the OpenCore Legacy Patcher application and its Privileged Helper Tool from your system."
+        _welcome += "This package will uninstall the OCLP ELITE application and its Privileged Helper Tool from your system."
         _welcome += "\n\n"
         _welcome += "This will not remove any root patches or OpenCore configurations that you may have installed using OpenCore Legacy Patcher."
         _welcome += "\n\n"
