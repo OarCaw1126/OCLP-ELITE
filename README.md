@@ -40,7 +40,7 @@ You can, however, reinstall macOS with this patcher and retain your original dat
 
 ## 🛎️ Features
 
-* 1 Tahoe Supports From 2012-2017 macs and Hackintosh and imacs from 2012-2019
+* 1 Tahoe Supports From 2012-2020 macs and Hackintosh and imacs from 2012-2020
 
 * 2 I Guess You Can Run Graphics Acceleration Of macs from 2012-2015 Were Testing Later
 
@@ -66,6 +66,13 @@ You can, however, reinstall macOS with this patcher and retain your original dat
 * MacBookPro13,3 15 inch model MBP 2016
 * MacBookPro14,1-MacBookPro14,2 13 inch model MBP 2017
 * MacBookPro14,3 15 inch model MBP 2017
+* MacbookPro15,1-MacbookPro-15,3 15 inch model MBP 2018-2019
+* MacbookPro15,2-MacbookPro-15,4 15 inch model MBP 2018-2019
+* MacbookPro16,1-MacbookPro16,4 16 inch model MBP 2019
+* MacbookPro16,2-MacbookPro16,3 12 inch model MBP 2020
+* MacBookPro17,1 13 inch model MBP 2020 M1
+* MacBookPro18,1-MacBookPro18,2 16 inch model MBP 2021 M1
+* MacBookPro18,3-MacBookPro18,4 14 inch model MBP 2021 M1
 
 ## Normal Macbooks
 
@@ -81,6 +88,10 @@ You can, however, reinstall macOS with this patcher and retain your original dat
 * MacBookAir6,2 13 inch model MBA 2013-2014
 * MacbookAir7,1 11 inch model MBA 2015
 * MacbookAir7,2 13 inch model MBA 2015-2017
+* MacbookAir8,1 13 inch model MBA 2018
+* MacbookAir8,2 13 inch model MBA 2019
+* MacbookAir9,1 13 inch model MBA 2020
+* MacbookAir10,1 13 inch model MBA 2020 M1
 
 ## iMacs
 
@@ -94,9 +105,22 @@ You can, however, reinstall macOS with this patcher and retain your original dat
 * iMac17,1 27 inch model iMac 2015
 * iMac18,1-iMac18,2 21,5 inch model iMac 2017
 * iMac18,2 27 inch model iMac 2017
-* iMacPro1,1 27 inch model iMac 2017 (SMBIOS ADDED)
+* iMacPro1,1 27 inch model iMac 2017
 * iMac19,2 21,5 inch model iMac 2019
 * iMac19,1 27 inch model iMac 2019
+* iMac20,1-20,1 27 inch model iMac 2020
+* iMac21,1-21,2 24 inch model iMac 2021 M1
+
+## iMac Pros
+
+* iMacPro1,1 27 inch model iMac Pro 2017
+
+## Macs Minis
+
+* Macmini6,1-Macmini6,1 2012 Model
+* Macmini7,1 2014 Model
+* Macmini8,1 2018 Model
+* Macmini9,1 2020 M1 Model
 
 ## Hackintosh
 * Any Hackintosh Works
