@@ -1006,14 +1006,14 @@ class Computer:
                     continue
 
     def oclp_sys_patch_probe(self):
-        path = Path("/System/Library/CoreServices/OpenCore-Legacy-Patcher.plist")
+        path = Path("/System/Library/CoreServices/OCLP-ELITE.plist")
         if not path.exists():
             self.oclp_sys_signed = True  # No plist, so assume root is valid
             return
         sys_plist = plistlib.load(path.open("rb"))
         if sys_plist:
-            if "OpenCore Legacy Patcher" in sys_plist:
-                self.oclp_sys_version = sys_plist["OpenCore Legacy Patcher"]
+            if "OCLP-ELITE" in sys_plist:
+                self.oclp_sys_version = sys_plist["OCLP-ELITE"]
             if "Time Patched" in sys_plist:
                 self.oclp_sys_date = sys_plist["Time Patched"]
             if "Commit URL" in sys_plist:
