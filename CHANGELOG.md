@@ -257,7 +257,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
 ## 1.5.0
 - Restructure project directories
   - Python:
-    - Move logic into `opencore_legacy_patcher` directory
+    - Move logic into `oclp_elite` directory
     - Use relative imports for local libraries
   - Documentation:
     - Move images to `docs/images`
