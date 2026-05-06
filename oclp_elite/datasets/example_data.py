@@ -1,5 +1,5 @@
 """
-example_data.py: Sample Hardware probes, for use in OpenCore Legacy Patcher validation
+example_data.py: Sample Hardware probes, for use in OCLP-ELITE validation
 """
 
 from ..detections import device_probe
