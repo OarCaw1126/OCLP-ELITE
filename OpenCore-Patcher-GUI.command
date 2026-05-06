@@ -3,7 +3,7 @@
 PyInstaller Entry Point
 """
 
-from opencore_legacy_patcher import main
+from oclp_elite import main
 
 if __name__ == '__main__':
     main()
