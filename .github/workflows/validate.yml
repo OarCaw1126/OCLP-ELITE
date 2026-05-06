@@ -11,9 +11,9 @@ on:
 jobs:
   build:
     name: Validate
-    runs-on: x86_64_monterey
+    runs-on: macos-26-intel
     if: github.repository_owner == 'dortania'
     steps:
       - uses: actions/checkout@v4
       - name: Validate
-        run: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 OpenCore-Patcher-GUI.command --validate
+        run: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 OCLP-ELITE.command --validate
