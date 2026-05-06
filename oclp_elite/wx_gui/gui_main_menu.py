@@ -61,7 +61,7 @@ class MainFrame(wx.Frame):
         Generate UI elements for the main menu
 
         Format:
-          - Title label: OpenCore Legacy Patcher v{X.Y.Z}
+          - Title label: OCLP-ELITE v{X.Y.Z}
           - Text:        Model: {Build or Host Model}
           - Buttons:
             - Build and Install OpenCore
@@ -76,7 +76,7 @@ class MainFrame(wx.Frame):
         logo = wx.StaticBitmap(self, bitmap=wx.Bitmap(str(self.constants.icns_resource_path / "OC-Patcher.icns"), wx.BITMAP_TYPE_ICON), pos=(-1, 0), size=(128, 128))
         logo.Centre(wx.HORIZONTAL)
 
-        # Title label: OpenCore Legacy Patcher v{X.Y.Z}
+        # Title label: OCLP-ELITE v{X.Y.Z}
         title_label = wx.StaticText(self, label=f"OCLP ELITE", pos=(-1, 128))
         title_label.SetFont(gui_support.font_factory(25, wx.FONTWEIGHT_BOLD))
         title_label.Centre(wx.HORIZONTAL)
