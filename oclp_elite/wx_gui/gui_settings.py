@@ -1361,7 +1361,7 @@ Hardware Information:
             title=self.title,
             global_constants=self.constants,
             screen_location=self.parent.GetPosition(),
-            url=f"https://nightly.link/dortania/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/{branch}/OpenCore-Patcher.pkg.zip",
+            url=f"https://nightly.link/dortania/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/{branch}/OCLP-ELITE.pkg.zip",
             version_label="(Nightly)"
         )
 

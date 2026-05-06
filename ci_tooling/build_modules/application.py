@@ -110,7 +110,7 @@ class GenerateApplication:
         and instead we're able to support 10.10 without issues.
 
         To verify set version:
-          otool -l ./dist/OCLP-ELITE.app/Contents/MacOS/OpenCore-Patcher
+          otool -l ./dist/OCLP-ELITE.app/Contents/MacOS/OCLP-ELITE
 
               cmd LC_VERSION_MIN_MACOSX
           cmdsize 16

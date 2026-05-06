@@ -20,7 +20,7 @@ class GeneratePackage:
         Initialize
         """
         self._files = {
-            "./dist/OCLP-ELITE.app": "/Library/Application Support/Dortania/OpenCore-Patcher.app",
+            "./dist/OCLP-ELITE.app": "/Library/Application Support/Dortania/OCLP-ELITE.app",
             "./ci_tooling/privileged_helper_tool/com.dortania.opencore-legacy-patcher.privileged-helper": "/Library/PrivilegedHelperTools/com.dortania.opencore-legacy-patcher.privileged-helper",
         }
         self._autopkg_files = {
@@ -85,7 +85,7 @@ class GeneratePackage:
         """
         Generate OCLP-ELITE.pkg
         """
-        print("Generating OpenCore-Patcher-Uninstaller.pkg")
+        print("Generating OCLP-ELITE-Uninstaller.pkg")
         _tmp_uninstall = tempfile.NamedTemporaryFile(delete=False)
         with open(_tmp_uninstall.name, "w") as f:
             f.write(GenerateScripts().uninstall())

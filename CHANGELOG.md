@@ -107,8 +107,8 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
 ## 2.3.0
 - Disable crash analytics
   - Disabled server side for years, removing client side
-- `OpenCore-Patcher-GUI.app.zip` removed from release
-  - Deprecated in 1.5.0, use `OpenCore-Patcher.pkg` for installation
+- `OCLP-ELITE-GUI.app.zip` removed from release
+  - Deprecated in 1.5.0, use `OCLP-ELITE.pkg` for installation
 - Sync copyright label to 2025
 - Resolve MetallibSupportPkg failing to be cached on units without Kernel Debug Kit requirements
 - Resolve Broadwell widget rendering on macOS Sequoia
@@ -273,16 +273,16 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
 - Disable usage of `OpenLegacyBoot.efi`
   - Resolves boot issues on certain CSM-based Macs
 - Implement new PKG-based installer
-  - `OpenCore-Patcher.pkg` is now the recommended method for installation
-  - `OpenCore-Patcher-Uninstaller.pkg` is now available for uninstallation
+  - `OCLP-ELITE.pkg` is now the recommended method for installation
+  - `OCLP-ELITE-Uninstaller.pkg` is now available for uninstallation
     - Note this only removes the application, not any patches applied
-  - `OpenCore-Patcher-GUI.app.zip` is deprecated and will be removed in future versions
+  - `OCLP-ELITE-GUI.app.zip` is deprecated and will be removed in future versions
 - Implement new Privileged Helper Tool
   - Removes need for password prompts when installing patches, creating installers, etc.
   - Installed at `/Library/PrivilegedHelperTools/com.dortania.opencore-legacy-patcher.privileged-helper`
   - No launch services required
   - For running from source, recompile tool with debug configuration (`make debug`)
-- Resolve OpenCore-Patcher.app window not appearing as topmost window on launch
+- Resolve OCLP-ELITE.app window not appearing as topmost window on launch
 - Reworked CI tooling:
   - New build script with reworked parameters: `Build-Project.command`
   - Remove reliance on WhiteBox's Packages for AutoPkg creation
@@ -522,9 +522,9 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
   - Setting must be re-enabled after patching
 - Update non-Metal Binaries:
   - Resolve window placement defaulting past top of screen for some apps
-    - ex. OpenCore-Patcher.app during root patching
+    - ex. OCLP-ELITE.app during root patching
   - Resolve indeterminate progress bars not rendering with wxWidgets in Monterey and later
-    - ex. OpenCore-Patcher.app
+    - ex. OCLP-ELITE.app
 - UI changes:
   - Add "Show Log File" button to menubar
 - Avoid listing unsupported installer to download by default
@@ -538,7 +538,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
     - Implement formatted logging
       - Allowing easier debugging
     - Implement per-version, per-run file logging
-      - ex. OpenCore-Patcher (0.6.7) (2021-12-31-12-34-56-666903).log
+      - ex. OCLP-ELITE (0.6.7) (2021-12-31-12-34-56-666903).log
     - Keep only 10 latest log files
     - Reveal log file in Finder on main thread crash
     - Avoid writing username to log file
@@ -578,7 +578,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
     - May require tccplus for permissions
 - Resolve Application alias not being created with AutoPatcher
 - Backend changes:
-  - Rename OCLP-Helper to OpenCore-Patcher
+  - Rename OCLP-Helper to OCLP-ELITE
     - Allows for better identification when displaying prompts
   - Reimplement wxPython GUI into modularized system:
     - Allows for easier maintenance and future expansion
@@ -723,7 +723,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
     - Support local loose matching when no network connection is available
     - Implement pkg receipt verification to validate integrity of KDKs
   - Implemented logging framework usage for more reliable logging
-    - Logs are stored under `~/Library/Logs/OpenCore-Patcher.log`
+    - Logs are stored under `~/Library/Logs/OCLP-ELITE.log`
     - Subsequent runs are appended to the log, allowing for easy debugging
   - Implemented new network_handler.py module
     - Allows for more reliable network calls and downloads
@@ -1073,7 +1073,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
   - Post OS Updates:
     - After OS updates, Patcher will detect whether system requires root patches and prompt you
     - Implemented via Launch Agent in `/Library/LaunchAgents`
-    - OpenCore-Patcher.app will be copied to `/Library/Application Support/Dortania` for storage
+    - OCLP-ELITE.app will be copied to `/Library/Application Support/Dortania` for storage
   - Notify users when OpenCore is booted from external disk not matching macOS (ie. USB installer)
     - Disable notification via `defaults write com.dortania.opencore-legacy-patcher AutoPatch_Notify_Mismatched_Disks -bool FALSE`
 - GUI Enhancements:
@@ -1685,7 +1685,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
 
 ## 0.0.12
 
-- Convert OpenCore-Patcher binary to OpenCore-Patcher.app
+- Convert OCLP-ELITE binary to OCLP-ELITE.app
 - Add Backlight patches for modded Nvidia GPUs in iMac10,x-12,x
 - Fix sleep for iMac12,x with upgraded GPUs
 
@@ -1693,7 +1693,7 @@ AMFIPass cannot be used with OCLP 3.1.5 due to a persistent kernel panic. Instea
 
 - Re-add OpenCore GUI
 - Rewrite in py3
-- Add OpenCore-Patcher binary for releases avoiding local python requirement
+- Add OCLP-ELITE binary for releases avoiding local python requirement
 - Increment binaries
   - OpenCore cbd2fa3 (0.6.7 release)
   - WhateverGreen 2e19d1b (1.4.8 release)

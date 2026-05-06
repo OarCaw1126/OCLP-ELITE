@@ -42,7 +42,7 @@ class UpdateFrame(wx.Frame):
 
         self.title: str = title
         self.constants: constants.Constants = global_constants
-        self.pkg_download_path = self.constants.payload_path / "OpenCore-Patcher.pkg"
+        self.pkg_download_path = self.constants.payload_path / "OCLP-ELITE.pkg"
         self.screen_location: wx.Point = screen_location
         if parent:
             self.parent.Centre()
@@ -97,7 +97,7 @@ class UpdateFrame(wx.Frame):
         download_obj = None
         def _fetch_update() -> None:
             nonlocal download_obj
-            file_name = "OpenCore-Patcher.pkg.zip" if url.endswith(".zip") else "OpenCore-Patcher.pkg"
+            file_name = "OCLP-ELITE.pkg.zip" if url.endswith(".zip") else "OCLP-ELITE.pkg"
             download_obj = network_handler.DownloadObject(url, self.constants.payload_path / file_name)
 
         thread = threading.Thread(target=_fetch_update)
@@ -199,7 +199,7 @@ class UpdateFrame(wx.Frame):
             subprocess.run(["/bin/rm", "-rf", str(self.pkg_download_path)])
 
         result = subprocess.run(
-            ["/usr/bin/ditto", "-xk", str(self.constants.payload_path / "OpenCore-Patcher.pkg.zip"), str(self.constants.payload_path)], capture_output=True
+            ["/usr/bin/ditto", "-xk", str(self.constants.payload_path / "OCLP-ELITE.pkg.zip"), str(self.constants.payload_path)], capture_output=True
         )
         if result.returncode != 0:
             logging.error(f"Failed to extract update.")
@@ -230,7 +230,7 @@ class UpdateFrame(wx.Frame):
                 logging.error("Failed to install update, attempting to open PKG")
                 subprocess.run(["/usr/bin/open", str(self.pkg_download_path)])
 
-                wx.CallAfter(wx.MessageBox, f"Failed to install update. Please try installing the OpenCore-Patcher.pkg manually or download from GitHub", "Critical Error!", wx.OK | wx.ICON_ERROR)
+                wx.CallAfter(wx.MessageBox, f"Failed to install update. Please try installing the OCLP-ELITE.pkg manually or download from GitHub", "Critical Error!", wx.OK | wx.ICON_ERROR)
             wx.CallAfter(sys.exit, 1)
 
 
@@ -239,4 +239,4 @@ class UpdateFrame(wx.Frame):
         Launches newly installed update
         """
         logging.info("Launching update: '/Library/Application Support/Dortania/OCLP-ELITE.app'")
-        subprocess.Popen(["/Library/Application Support/Dortania/OpenCore-Patcher.app/Contents/MacOS/OCLP-ELITE", "--update_installed"])
+        subprocess.Popen(["/Library/Application Support/Dortania/OCLP-ELITE.app/Contents/MacOS/OCLP-ELITE", "--update_installed"])

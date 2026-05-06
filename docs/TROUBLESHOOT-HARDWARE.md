@@ -208,7 +208,7 @@ Alternative way for updates is making sure to enable "Remote Login" in General -
 Use the following commands:
 
 1. `ssh username@lan-ip-address` - Connects via SSH, change username and IP address to the system's
-2. `/Applications/OpenCore-Patcher.app/Contents/MacOS/OpenCore-Patcher --patch_sys_vol` - Installs root patches via CLI
+2. `/Applications/OCLP-ELITE.app/Contents/MacOS/OCLP-ELITE --patch_sys_vol` - Installs root patches via CLI
 3. `sudo reboot`.
 
 More information can be found here:

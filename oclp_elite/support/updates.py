@@ -116,7 +116,7 @@ class CheckBinaryUpdates:
 
         for asset in data_set["assets"]:
             logging.info(f"Found asset: {asset['name']}")
-            if asset["name"] == "OpenCore-Patcher.pkg":
+            if asset["name"] == "OCLP-ELITE.pkg":
                 self.latest_details = {
                     "Name": asset["name"],
                     "Version": latest_remote_version,

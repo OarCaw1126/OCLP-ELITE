@@ -13,7 +13,7 @@
 If the application won't launch (e.g. icon will bounce in the Dock), try launching OCLP via Terminal by typing the following command.
 
 ```sh
-/Library/Application Support/Dortania/OpenCore-Patcher.app/Contents/MacOS/OpenCore-Patcher
+/Library/Application Support/Dortania/OCLP-ELITE.app/Contents/MacOS/OCLP-ELITE
 ```
 
 ## Privileged Helper Tool not found
@@ -39,7 +39,7 @@ To resolve this, you may try adding Full Disk Access permission for OpenCore Leg
 
 * Big Sur and Monterey: Go to System Preferences -> Security and Privacy -> Full Disk Access
 
-Enable OpenCore-Patcher in the list. If not found on the list, press the + sign to add a new entity and find OpenCore Legacy Patcher from Applications.
+Enable OCLP-ELITE in the list. If not found on the list, press the + sign to add a new entity and find OpenCore Legacy Patcher from Applications.
 
 Restart OpenCore Legacy Patcher and try creating your USB drive again.
 

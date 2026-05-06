@@ -432,7 +432,7 @@ class GenerateScripts:
         _script += "mainAppPath=\"Library/Application Support/Dortania/OCLP-ELITE.app\"\n"
         _script += "shimAppPath=\"Applications/OCLP-ELITE.app\"\n"
         if is_autopkg:
-            _script += "executablePath=\"$mainAppPath/Contents/MacOS/OpenCore-Patcher\"\n"
+            _script += "executablePath=\"$mainAppPath/Contents/MacOS/OCLP-ELITE\"\n"
 
         _script += "\n\n"
 

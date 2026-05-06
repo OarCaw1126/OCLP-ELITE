@@ -6,7 +6,7 @@ If you haven't downloaded OpenCore Patcher yet, do so now:
 
 * [OpenCore Legacy Patcher Releases](https://github.com/dortania/Opencore-Legacy-Patcher/releases)
 
-Next, run the `OpenCore-Patcher.app`
+Next, run the `OCLP-ELITE.app`
 
 Here we'll select Build and Install OpenCore and start building:
 
