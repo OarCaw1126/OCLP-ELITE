@@ -103,7 +103,7 @@ class SysPatchHelpers:
             metallib_used_string = metallib_used
 
         data = {
-            "OpenCore Legacy Patcher": f"v{self.constants.patcher_version}",
+            "OCLP-ELITE": f"v{self.constants.patcher_version}",
             "PatcherSupportPkg": f"v{self.constants.patcher_support_pkg_version}",
             "Time Patched": f"{datetime.now().strftime('%B %d, %Y @ %H:%M:%S')}",
             "Commit URL": f"{self.constants.commit_info[2]}",
