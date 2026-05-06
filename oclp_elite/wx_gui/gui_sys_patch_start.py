@@ -445,7 +445,7 @@ class SysPatchStartFrame(wx.Frame):
             # If commits are different, assume patches are as well
             return True
 
-        oclp_plist = "/System/Library/CoreServices/OpenCore-Legacy-Patcher.plist"
+        oclp_plist = "/System/Library/CoreServices/OCLP-ELITE.plist"
         if not Path(oclp_plist).exists():
             # If it doesn't exist, no patches were ever installed
             # ie. all patches applicable
