@@ -31,7 +31,7 @@ from .support import (
 
 class OpenCoreLegacyPatcher:
     """
-    Initial entry point for starting OpenCore Legacy Patcher
+    Initial entry point for starting OCLP-ELITE
     """
 
     def __init__(self) -> None:
@@ -96,7 +96,7 @@ class OpenCoreLegacyPatcher:
             # We're running from source
             launcher_script =  __file__
             if "main.py" in launcher_script:
-                launcher_script = launcher_script.replace("/resources/main.py", "/OpenCore-Patcher-GUI.command")
+                launcher_script = launcher_script.replace("/resources/main.py", "/OCLP-ELITE-GUI.command")
         self.constants.launcher_binary = launcher_binary
         self.constants.launcher_script = launcher_script
 
