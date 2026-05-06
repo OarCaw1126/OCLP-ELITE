@@ -11,8 +11,8 @@ import packaging.version
 
 from functools import cached_property
 
-from opencore_legacy_patcher import constants
-from opencore_legacy_patcher.datasets.os_data import os_data
+from oclp_elite import constants
+from oclp_elite.datasets.os_data import os_data
 
 from ..support import network_handler
 
