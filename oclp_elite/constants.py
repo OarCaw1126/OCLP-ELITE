@@ -748,7 +748,7 @@ class Constants:
 
     @property
     def oclp_helper_path(self):
-        return self.payload_path / Path("Tools/OpenCore-Patcher.app/Contents/MacOS/OpenCore-Patcher")
+        return self.payload_path / Path("Tools/OCLP-ELITE.app/Contents/MacOS/OpenCore-Patcher")
 
     @property
     def rsrrepair_userspace_path(self):
