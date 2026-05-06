@@ -116,7 +116,7 @@ class UpdateFrame(wx.Frame):
         if download_obj.download_complete is False:
             progress_bar_animation.stop_pulse()
             progress_bar.SetValue(0)
-            wx.MessageBox("Failed to download update. If you continue to have this issue, please manually download OpenCore Legacy Patcher off Github", "Critical Error!", wx.OK | wx.ICON_ERROR)
+            wx.MessageBox("Failed to download update. If you continue to have this issue, please manually download OCLP-ELITE off Github", "Critical Error!", wx.OK | wx.ICON_ERROR)
             sys.exit(1)
 
         # Title: Extracting update
@@ -238,5 +238,5 @@ class UpdateFrame(wx.Frame):
         """
         Launches newly installed update
         """
-        logging.info("Launching update: '/Library/Application Support/Dortania/OpenCore-Patcher.app'")
-        subprocess.Popen(["/Library/Application Support/Dortania/OpenCore-Patcher.app/Contents/MacOS/OpenCore-Patcher", "--update_installed"])
+        logging.info("Launching update: '/Library/Application Support/Dortania/OCLP-ELITE.app'")
+        subprocess.Popen(["/Library/Application Support/Dortania/OpenCore-Patcher.app/Contents/MacOS/OCLP-ELITE", "--update_installed"])
