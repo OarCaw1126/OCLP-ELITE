@@ -1,5 +1,5 @@
 """
-updates.py: Check for OpenCore Legacy Patcher binary updates
+updates.py: Check for OCLP-ELITE binary updates
 
 Call check_binary_updates() to determine if any updates are available
 Returns dict with Link and Version of the latest binary update if available
@@ -81,7 +81,7 @@ class CheckBinaryUpdates:
 
     def check_binary_updates(self) -> Optional[dict]:
         """
-        Check if any updates are available for the OpenCore Legacy Patcher binary
+        Check if any updates are available for the OCLP-ELITE binary
 
         Returns:
             dict: Dictionary with Link and Version of the latest binary update if available
