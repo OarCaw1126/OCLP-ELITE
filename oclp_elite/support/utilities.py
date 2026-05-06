@@ -1,5 +1,5 @@
 """
-utilities.py: Utility functions for OpenCore Legacy Patcher
+utilities.py: Utility functions for OCLP-ELITE
 """
 
 import os
