@@ -24,7 +24,7 @@ class KernelDebugKitMerge:
         """
         Check whether the KDK is already merged with the root volume
         """
-        oclp_plist = Path("/System/Library/CoreServices/OpenCore-Legacy-Patcher.plist")
+        oclp_plist = Path("/System/Library/CoreServices/OCLP-ELITE.plist")
         if not oclp_plist.exists():
             return False
 
