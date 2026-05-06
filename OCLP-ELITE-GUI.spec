@@ -13,7 +13,7 @@ from PyInstaller.building.build_main import Analysis
 
 sys.path.append(os.path.abspath(os.getcwd()))
 
-from opencore_legacy_patcher import constants
+from oclp_elite import constants
 
 block_cipher = None
 
@@ -26,7 +26,7 @@ if Path("DortaniaInternalResources.dmg").exists():
    datas.append(('DortaniaInternalResources.dmg', '.'))
 
 
-a = Analysis(['OpenCore-Patcher-GUI.command'],
+a = Analysis(['OCLP-ELITE-GUI.command'],
              pathex=[],
              binaries=[],
              datas=datas,
@@ -66,14 +66,14 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='OpenCore-Patcher')
+               name='OCLP-ELITE')
 
 app = BUNDLE(coll,
-             name='OpenCore-Patcher.app',
+             name='OCLP-ELITE.app',
              icon="payloads/Icon/AppIcons/OC-Patcher.icns",
              bundle_identifier="com.dortania.opencore-legacy-patcher",
              info_plist={
-                "CFBundleName": "OpenCore Legacy Patcher",
+                "CFBundleName": "OCLP-ELITE",
                 "CFBundleVersion": constants.Constants().patcher_version,
                 "CFBundleShortVersionString": constants.Constants().patcher_version,
                 "NSHumanReadableCopyright": constants.Constants().copyright_date,
