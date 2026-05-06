@@ -115,14 +115,14 @@ class KernelCacheSupport:
             When reverting root volume patches, the AuxKC will still retain the UUID
             it was built against. Thus when Boot/SysKC are reverted, Aux will break
             To resolve this, delete all installed kexts in /L*/E* and rebuild the AuxKC
-            We can verify our binaries based off the OpenCore-Legacy-Patcher.plist file
+            We can verify our binaries based off the OCLP-ELITE.plist file
         """
 
         if self.detected_os < os_data.os_data.big_sur:
             return
 
         logging.info("- Cleaning Auxiliary Kernel Collection")
-        oclp_path = "/System/Library/CoreServices/OpenCore-Legacy-Patcher.plist"
+        oclp_path = "/System/Library/CoreServices/OCLP-ELITE.plist"
         if Path(oclp_path).exists():
             oclp_plist_data = plistlib.load(Path(oclp_path).open("rb"))
             for key in oclp_plist_data:
