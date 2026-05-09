@@ -81,7 +81,7 @@ class MainFrame(wx.Frame):
         title_label.SetFont(gui_support.font_factory(25, wx.FONTWEIGHT_BOLD))
         title_label.Centre(wx.HORIZONTAL)
 
-        version_label = wx.StaticText(self, label=f"Version {self.constants.patcher_version}{' (Nightly)' if not self.constants.commit_info[0].startswith('refs/tags') else ''}", pos=(-1, title_label.GetPosition()[1] + 32))
+        version_label = wx.StaticText(self, label=f"Version {self.constants.patcher_version}{' (Beta)' if not self.constants.commit_info[0].startswith('refs/tags') else ''}", pos=(-1, title_label.GetPosition()[1] + 32))
         version_label.SetFont(gui_support.font_factory(13, wx.FONTWEIGHT_NORMAL))
         version_label.Centre(wx.HORIZONTAL)
         version_label.SetForegroundColour(wx.Colour(128, 128, 128))
