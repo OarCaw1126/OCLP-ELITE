@@ -7,7 +7,7 @@
 - Now You Can Patch In macOS Catalina
 - Changed Text On Root Patch
 - Updated OCLP Icon
-- Redesigned Patch/Support Icon (Soon)
+- Redesigned Patch/Support Icon
 
 ## 3.2.2
 
