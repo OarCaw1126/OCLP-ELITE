@@ -1,5 +1,14 @@
 # OpenCore Legacy Patcher changelog
 
+## 3.2.3
+
+- Redesign And Changes Update!!!!
+- Renamed (OpenCore-Patcher To OCLP-ELITE)
+- Now You Can Patch In macOS Catalina
+- Changed Text On Root Patch
+- Updated OCLP Icon (Soon)
+- Redesigned Patch/Help Icon (Soon)
+
 ## 3.2.2
 
 - SMBIOS UPDATE!!!!
