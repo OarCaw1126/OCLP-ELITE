@@ -6,8 +6,8 @@
 - Renamed (OpenCore-Patcher To OCLP-ELITE)
 - Now You Can Patch In macOS Catalina
 - Changed Text On Root Patch
-- Updated OCLP Icon (Soon)
-- Redesigned Patch/Help Icon (Soon)
+- Updated OCLP Icon
+- Redesigned Patch/Support Icon (Soon)
 
 ## 3.2.2
 
