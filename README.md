@@ -17,17 +17,17 @@ Works for both Hackintosh and Macs (from 2012-2017) Requirements to Run Tahoe
 
 4: Install patches for Wi-Fi
 
-5: Run the official version of Tahoe. If you have Beta 1-Beta 9, especially OMC if you're testing Tahoe on your Mac but running Beta 1, you need to run version 26.4.1 for it to work.
+5: Run the official version of Tahoe. If you have Beta 1-Beta 9, especially OMC if you're testing Tahoe on your Mac but running Beta 1, you need to run version 26.5 for it to work.
 
-## Why You Update To Beta 1-Beta-9 To 26.4.1 Stable? 
+## Why You Update To Beta 1-Beta-9 To 26.5 Stable? 
 
-Well Because if you don't do this, the Wi-Fi won't work. And keep in mind that if you're on Beta 1 to Beta 9, if you activate Wi-Fi, it will deactivate in 0.5 seconds. So Update It To 26.4 for Wi-Fi to work
+Well Because if you don't do this, the Wi-Fi won't work. And keep in mind that if you're on Beta 1 to Beta 9, if you activate Wi-Fi, it will deactivate in 0.5 seconds. So Update It To 26.5 for Wi-Fi to work
 
-Well, as I was saying, I'm testing graphics Acceletration for Old Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.4.1-25E253), to see if it works or not.
+Well, as I was saying, I'm testing graphics Acceletration for Old Macs from 2012-2015, like [Pyquicks's Metalib](https://github.com/pyquick/MetallibSupportPkg/releases/tag/26.5-25F71), to see if it works or not.
 
 Features And Tutorials.
 
-Tahoe Patchset Support 26.0-26.4.1 Like You Can Patch Wifi And Audio And Camera But Graphics Acceleration Is Fixing, for now
+Tahoe Patchset Support 26.0-26.5 Like You Can Patch Wifi And Audio And Camera But Graphics Acceleration Is Fixing, for now
 
 Supports Only macOS Tahoe The Sequoia And Below go To The [Official Version Of OpenCore](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
