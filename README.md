@@ -152,7 +152,7 @@ macOS Catalina To Install It
 
 8. Click Build And Install Opencore Install Opencore Click On YOur Disk Efi And Restart
 
-9. NOTE IF WIFI deactivate in 10 seconds and activate in 1 secon install ocat select your disk efi mount and open config.plist deactivate amfi on kextts now go to NVRAM 7C?????????? bootargs and put this text amfi=0x80 dart=0 and click save or press command s and restart and done
+9. NOTE IF WIFI deactivate in 10 seconds and activate in 1 secon install ocat select your disk efi mount and open config.plist deactivate amfi on kextts now go to NVRAM 7C436110-AB2A-4BBB-A880-FE41995C9F82 bootargs and put this text amfi=0x80 and dart=0 and click save or press command s and restart and done
 
 ## Support
 
