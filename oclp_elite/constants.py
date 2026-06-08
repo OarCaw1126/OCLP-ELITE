@@ -250,7 +250,6 @@ class Constants:
             os_data.os_data.sonoma,
             os_data.os_data.sequoia,
             os_data.os_data.tahoe,
-            os_data.os_data.golden_gate,
         ]
 
     @property
