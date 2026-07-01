@@ -1,3 +1,7 @@
+⚠️⚠️ Inactivity of the OCLP ElITE
+The Repository Is Archiving On September 6th on 2026
+Thats Means NO GOLDEN GATTE PROBALLY TESTING BETA TEST AND AND END OF ERA FOR MOD/PLUS/ELITE
+
 <div align="center">
              <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
              <h1>OCLP ELITE</h1>
