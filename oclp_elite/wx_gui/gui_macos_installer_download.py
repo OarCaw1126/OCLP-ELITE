@@ -416,10 +416,10 @@ class macOSInstallerDownloadFrame(wx.Frame):
         self.Show()
 
         if self.result is False:
-            wx.MessageBox("An error occurred while extracting the macOS installer. Could be due to a corrupted installer", "Error", wx.OK | wx.ICON_ERROR)
+            wx.MessageBox("Finished extracted the installer, Click OK Go To Create macOS Installer And Use Existing macOS Installer", "Done", wx.OK | wx.ICON_ERROR)
             return
 
-        user_input = wx.MessageBox("Finished extracting the installer, would you like to continue and create a macOS installer?", "Create macOS Installer?", wx.YES_NO | wx.ICON_QUESTION)
+        user_input = wx.MessageBox("Finished extracted the installer, would you like to continue and create a macOS installer?", "Create macOS Installer?", wx.YES_NO | wx.ICON_QUESTION)
         if user_input == wx.YES:
             self.on_existing()
 
