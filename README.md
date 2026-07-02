@@ -88,7 +88,7 @@ If You Patch Without A Metallib You Get The Error No Metallib Found On Your macO
 
 3. Go To Post Install Root Patch And Start Root Patching Next Select Ignore
 
-4. Install [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases/download/20250001/OCAT_Mac.dmg) Select Your Internal Disk Efi Mount (disk0s1) And Open config.plist Deactivate amfi on Kexts now go to NVRAM > ADD 7C436110-AB2A-4BBB-A880-FE41995C9F82 > bootargs And Put This Text amfi=0x80 dart=0 and click save or press command/Cmd s And Restart And Done
+4. Install [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases/download/20250001/OCAT_Mac.dmg) Select Your Internal Disk Efi Mount (disk0s1) And Open config.plist Deactivate amfi on Kexts now go to NVRAM > ADD 7C436110-AB2A-4BBB-A880-FE41995C9F82 > bootargs And Put This Text "amfi=0x80 dart=0"  Ensured there are no duplicates of either the amfi=0x80 or the dart=0  and click save or press command/Cmd s And Restart And Done
 
 HOW TO PATCH AUDIO 🔊🔊🔊
 
@@ -104,7 +104,7 @@ HOW TO PATCH WIFI 🛜🛜🛜
 
 2. Go To Root Patch And If there's Only WiFi patch it If Theres WiFi, Audio And Other Dont Patch It.
 
-3. Install [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases/download/20250001/OCAT_Mac.dmg) Select Your Internal Disk Efi Mount (disk0s1) And Open config.plist Deactivate amfi on Kexts now go to NVRAM > ADD 7C436110-AB2A-4BBB-A880-FE41995C9F82 > bootargs And Put This Text amfi=0x80 dart=0 and click save or press command/Cmd s And Restart And Done
+3. Install [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases/download/20250001/OCAT_Mac.dmg) Select Your Internal Disk Efi Mount (disk0s1) And Open config.plist Deactivate amfi on Kexts now go to NVRAM > ADD 7C436110-AB2A-4BBB-A880-FE41995C9F82 > bootargs And Put This Text "amfi=0x80 dart=0" Ensured there are no duplicates of either the amfi=0x80 or the dart=0 and click save or press command/Cmd s And Restart And Done
 
 How Know Patches Are Alreade Installed
 
