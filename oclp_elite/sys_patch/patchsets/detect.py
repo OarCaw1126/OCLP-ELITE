@@ -78,12 +78,12 @@ class HardwarePatchsetValidation(StrEnum):
     """
     Enum for validation settings
     """
-    UNSUPPORTED_HOST_OS           = "Validation: Your macOS Is Not Supported Update To macOS 10.15-26 to Patch"
-    MISSING_NETWORK_CONNECTION    = "Validation: Your Wifi Is Disable Install A Kdk To Continue Or Use A Ethernet Or Enable It"
-    FILEVAULT_ENABLED             = "Validation: FileVault is enabled Go To The Main Menu Of OCLP Elite How To Disable It"
-    SIP_ENABLED                   = "Validation: System Integrity Protection is enabled Go To The Main Menu Of OCLP Elite How To Disable It"
-    SECURE_BOOT_MODEL_ENABLED     = "Validation: SecureBootModel is enabled Go To The Main Menu Of OCLP Elite How To Disable It"
-    AMFI_ENABLED                  = "Validation: AMFI is enabled Go To The Main Menu Of OCLP Elite How To Disable It"
+    UNSUPPORTED_HOST_OS           = "Validation: Update To macOS 10.13-26 to Patch"
+    MISSING_NETWORK_CONNECTION    = "Validation: Install Kdk To Continue Without WiFi"
+    FILEVAULT_ENABLED             = "Validation: FileVault is enabled"
+    SIP_ENABLED                   = "Validation: System Integrity Protection"
+    SECURE_BOOT_MODEL_ENABLED     = "Validation: SecureBootModel is enabled"
+    AMFI_ENABLED                  = "Validation: AMFI is enabled"
     WHATEVERGREEN_MISSING         = "Validation: WhateverGreen.kext missing"
     FORCE_OPENGL_MISSING          = "Validation: Force OpenGL property missing"
     FORCE_COMPAT_MISSING          = "Validation: Force compat property missing"
@@ -153,7 +153,7 @@ class HardwarePatchsetDetection:
         """
         Determine if host OS is unsupported
         """
-        _min_os = os_data.catalina.value
+        _min_os = os_data.high_sierra.value
         _max_os = os_data.golden_gate.value
         if self._dortania_internal_check() is True:
             return False
