@@ -1,5 +1,23 @@
 # OpenCore Legacy Patcher changelog
 
+## 4.0.0
+
+- Mod Update!!!
+- Now You Can Patch In macOS High Sierra
+- You Select Make Create macOS Installer (Dmg) And Burn Image (Dmg)
+- Modified Kexts Support now M macs and macOS 27 (Still support intel macs)
+- Modified SuCatalog Support High Sierra
+- Modified Opencore To Support M Macs and macOS 27 (Still support intel macs)
+- Add Tahoe And Golden Gate Icon When Boot And EFI
+- Add New Icon When Boot Into Efi
+- Readme Almost Dome
+- New Features (Install Metallib when Root patching) (New Icon Tutorial) (etc)
+- Support Tahoe Old Macs With Non Metal 2007-2011
+- New Icons
+- Fix Build And Install Opencore For M Chips macs
+- Now You Can Patch Graphics Acceleration On Old Macs 2007-2016
+- Integrate WiFi Patch "dart=0" On macs 2007-2019
+
 ## 3.2.3
 
 - Redesign And Changes Update!!!!
