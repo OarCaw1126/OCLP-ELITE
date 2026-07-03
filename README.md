@@ -62,7 +62,7 @@ Only iPhone Mirroring Are Compatible Of This Macs
 
 2. Install An Version Whattaver You Want Select Stable Or Beta
 
-3. Now If Shows Alert Finally Go To Yes NOTE IF POP US CORRUPTED is NOT Click Ok go Create macOS Installer And Use Existing macOS Installer
+3. Now If Shows Alert Finally Go To Yes Or Ok
 
 4. Backup Yor Usb (optional)
 
