@@ -58,6 +58,7 @@ class SysPatchDisplayFrame(wx.Frame):
             - Title label:        Post-Install Menu
             - Label:              Available patches:
             - Labels:             {patch name}
+            - Button:             Install Metallib
             - Button:             Start Root Patching
             - Button:             Revert Root Patches
             - Button:             Return to Main Menu
