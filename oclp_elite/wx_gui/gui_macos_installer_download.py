@@ -220,9 +220,9 @@ class macOSInstallerDownloadFrame(wx.Frame):
                         logging.info(self.fetched_aes_key_status)
                         logging.info(self.fetched_aes_key)
                     else:
-                        logging.error("Request failed, status code": {aes.status_code}")
+                        logging.error(f"请求失败，状态码: {aes.status_code}")
                 else:
-                    logging.info("Request failed, status code": {response.status_code}")
+                    logging.info(f"请求失败，状态码: {response.status_code}")
 
                 dmg_number=[]
                 dmg_build=[]
