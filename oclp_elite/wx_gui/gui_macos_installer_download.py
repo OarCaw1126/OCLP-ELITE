@@ -609,7 +609,7 @@ class macOSInstallerDownloadFrame(wx.Frame):
             if not origin:
                 logging.error(f"Download URL not found for selected item: {item}")
                 clipboard.Close()
-                wx.MessageDialog(self.frame_modal, ""Download link not found", "Error", wx.OK | wx.ICON_ERROR).ShowModal()
+                wx.MessageDialog(self.frame_modal, "Download link not found", "Error", wx.OK | wx.ICON_ERROR).ShowModal()
                 return
             
             clipboard.SetData(wx.TextDataObject(self.generate_signed_url(origin, self.fetched_aes_key)))
