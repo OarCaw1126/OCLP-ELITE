@@ -813,6 +813,10 @@ class Constants:
         return self.icns_resource_path / Path("Tahoe.icns")
 
     @property
+    def icon_path_macos_golden_gate(self):
+        return self.icns_resource_path / Path("GoldenGate.icns")
+
+    @property
     def gui_path(self):
         return self.payload_path / Path("Icon/Resources.zip")
 
