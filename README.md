@@ -1,9 +1,12 @@
 📌 Hackintosh And Legacy MACS is already history.
 
-* This project was archiviving on September 6, 2026.
+* This project was archiviving on November 15, 2026.
 * Thats Means NO GOLDEN GATTE PROBALLY TESTING BETA KEXTS AND END OF ERA FOR OCLP
 * 📢 Important notice for users:
-* The Latest Version to Support OCLP ELITE Is 4.0.1
+* The Latest Version to Support OCLP ELITE Is 4.1.2
+
+Currently Inactivity On This Project
+You probably see that I haven't done much since July 11th, but version 4.0.0 is a big update. September 6th is my birthday, and maybe now I'll get serious about this project.
 
 
 <div align="center">
