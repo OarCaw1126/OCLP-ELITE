@@ -17,6 +17,7 @@
 - Fix Build And Install Opencore For M Chips macs
 - Now You Can Patch Graphics Acceleration On Old Macs 2007-2016
 - Integrate WiFi Patch "dart=0" On macs 2007-2019
+- Add Golden Gate Installer
 
 ## 3.2.3
 
